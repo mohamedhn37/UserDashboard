@@ -1,0 +1,62 @@
+.sectionTitle{
+    display: flex;
+    align-items: initial;
+    cursor: pointer;
+}
+.CondidatInfo{
+    display: flex;
+    align-items: center;
+
+}
+.CondidatInfo img{
+    height: 90px;
+    width: 90px;
+    border-radius: 50%;
+}
+.CondidatInfo h4{
+    margin-left: 40px;
+}
+
+.UserFormations .FormationForm textarea , .UserFormations .ExperienceForm textarea, 
+.UserFormations .Introduction textarea{
+    resize: none;
+    padding-top: 15px;
+}
+.cv{
+    align-items: center;
+    border: 2px dashed #bbb;
+    display: flex;
+    min-height: 100px;
+    padding: 20px 10px;
+    position: relative;
+}
+.cv input {
+    cursor: pointer;
+    display: block;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    opacity: 0;
+    top: 0;
+    width: 100%;
+    z-index: 1;
+}
+.cv .CvPlaceholder{
+    color: #999;
+    flex-grow: 1;
+    text-align: center;
+}
+
+.fileNameContent{
+    background-color: #ffea9a;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    padding: 20px;
+    border-radius: 20px;
+}
+.cvicon{
+    cursor: pointer;
+}
