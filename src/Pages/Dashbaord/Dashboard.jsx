@@ -60,6 +60,14 @@ const Dashboard = () => {
                       <p>123, Avenue Mohammed VI, Casablanca 20000, Maroc</p>
                     </div>
                     <div className="profilInfos">
+                      <p className='fw-bold'>Niveau d'étude</p>
+                      <p>BAC+3</p>
+                    </div>
+                    <div className="profilInfos">
+                      <p className='fw-bold'>Les années d'expérience</p>
+                      <p>Moins d'un an</p>
+                    </div>
+                    <div className="profilInfos">
                       <p className='fw-bold'>Mon CV</p>
                       <div className="cvIcon">
                         <NavLink to="#"><FaEye className='text-black'/></NavLink>

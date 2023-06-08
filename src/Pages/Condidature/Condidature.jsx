@@ -68,27 +68,6 @@ const Condidature = () => {
                       <td>
                         <p className='fw-bold'>16-06-2023</p>
                       </td>
-                      <td><span className="Condidatestatue">En cours</span></td>
-                      <td>
-                        <button className="btn btn-danger">Annuler</button>
-                      </td>
-                    </tr>
-                    <tr>
-                      <td>
-                        <ul className="jobInfo">
-                          <li>
-                            <span className='fw-bold'>Offre:</span>
-                            <p>Développeur Front-End H/F</p>
-                          </li>
-                          <li>
-                            <span className='fw-bold'>Société:</span>
-                            <p>Atos</p>
-                          </li>
-                        </ul>
-                      </td>
-                      <td>
-                        <p className='fw-bold'>16-06-2023</p>
-                      </td>
                       <td><span className="Condidatestatue">Traité</span></td>
                       <td>
                         <div className="Suivi">

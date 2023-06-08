@@ -279,9 +279,29 @@ const Profil = () => {
               <hr />
               <div className="row my-2">
                 <div className="col-md-12">
+                  <div className="NiveauEtude">
+                  <div className="sectionTitle my-3">
+                      <h5>Niveau d'étude</h5>
+                    </div>
+                    <select id="NiveauEtude" name="Domaine" title="Choisir un Secteur" className="form-select">
+                      <option value="Niveau d'étude">Niveau d'étude</option>
+                      <option value="Aucun diplôme">Aucun diplôme</option>
+                      <option value="BAC">BAC</option>
+                      <option value="BAC+1">BAC+1</option>
+                      <option value="BAC+2">BAC+2</option>
+                      <option value="BAC+3">BAC+3</option>
+                      <option value="BAC+5">BAC+5</option>
+                      <option value="BAC+5 et Plus">BAC+5 et Plus</option>
+                    </select>
+                  </div>
+                </div>
+              </div>
+              <hr />
+              <div className="row my-2">
+                <div className="col-md-12">
                   <div className="Secteur">
                     <div className="sectionTitle my-3">
-                      <h5>Secteur(s) recherché(s)</h5>
+                      <h5>Secteur rechercher</h5>
                     </div>
                     <select id="Secteur" name="Secteur" title="Choisir un Secteur" className="form-select">
                       <option value="Choisir un Secteur">Secteur</option>
