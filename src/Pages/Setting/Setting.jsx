@@ -22,7 +22,6 @@ const Setting = () => {
                       <option value="Civilité">Civilité</option>
                       <option value="Homme">Homme</option>
                       <option value="Femme">Femme</option>
-                      <option value="Autres">Autres</option>
                     </select>
                   </div>
                 </div>
